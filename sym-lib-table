@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "vl53l5cx")(type "Legacy")(uri "${KIPRJMOD}/lib/vl53l5cx.lib")(options "")(descr ""))
+)

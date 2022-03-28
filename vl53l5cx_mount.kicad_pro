@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,25 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|122476699|27686000|c94cc5af-7f88-4af7-8794-8c7301b28b19|7ee2bb65-5d79-447f-b3df-96ded11d7665",
+        "clearance|122476699|29591000|025339a7-59e4-42fb-b5b5-f61a64b460f5|913f1a9a-f098-4c7a-81ce-cee4ef17cb08",
+        "clearance|123226700|27686000|7ee2bb65-5d79-447f-b3df-96ded11d7665|ad9d6903-9389-4aa0-b5e2-9fd78b04f199",
+        "clearance|123226700|27686000|7ee2bb65-5d79-447f-b3df-96ded11d7665|cb70dc60-f0a6-4e3b-9bcd-6c20f987341e",
+        "clearance|123226700|29591000|913f1a9a-f098-4c7a-81ce-cee4ef17cb08|4c948ab4-5542-496a-9cbe-71570d63c429",
+        "clearance|123304300|28892500|cb70dc60-f0a6-4e3b-9bcd-6c20f987341e|913f1a9a-f098-4c7a-81ce-cee4ef17cb08",
+        "clearance|123443299|27686000|ad9d6903-9389-4aa0-b5e2-9fd78b04f199|cb70dc60-f0a6-4e3b-9bcd-6c20f987341e",
+        "clearance|123443299|28892500|cb70dc60-f0a6-4e3b-9bcd-6c20f987341e|4c948ab4-5542-496a-9cbe-71570d63c429",
+        "clearance|123976699|27686000|ad9d6903-9389-4aa0-b5e2-9fd78b04f199|207661fa-9e4c-43b8-8669-730a077cf8fb",
+        "clearance|123976699|29591000|4c948ab4-5542-496a-9cbe-71570d63c429|430c6f19-9a78-4ff4-8c53-27e583722676",
+        "clearance|124193300|27686000|207661fa-9e4c-43b8-8669-730a077cf8fb|cb70dc60-f0a6-4e3b-9bcd-6c20f987341e",
+        "clearance|124193300|28892500|cb70dc60-f0a6-4e3b-9bcd-6c20f987341e|430c6f19-9a78-4ff4-8c53-27e583722676",
+        "clearance|124726700|29591000|430c6f19-9a78-4ff4-8c53-27e583722676|b2de8ead-2d70-42bb-a77c-f99e89ceaa4a",
+        "clearance|124943301|27686000|5d2af59e-220f-485f-b399-3e5cb47e3192|cb70dc60-f0a6-4e3b-9bcd-6c20f987341e",
+        "clearance|124943301|28892500|cb70dc60-f0a6-4e3b-9bcd-6c20f987341e|b2de8ead-2d70-42bb-a77c-f99e89ceaa4a",
+        "clearance|125476701|27686000|5d2af59e-220f-485f-b399-3e5cb47e3192|37a0601d-90fb-4f0c-a604-15c2664a92b3",
+        "clearance|125476701|29591000|b2de8ead-2d70-42bb-a77c-f99e89ceaa4a|9da99d40-df80-4a36-812f-5f7e08c70fdb"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
